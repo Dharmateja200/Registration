@@ -1,0 +1,89 @@
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: url(t1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.wrapper {
+    position: relative;
+    width: 500px;
+    height: 600px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+}
+
+form h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: bold;
+    color: black;
+    font-size: 2em;
+}
+
+.input-box {
+    position: relative;
+    margin: 20px;
+}
+
+.input-box input {
+    position: relative;
+    width: 100%;
+    height: 40%;
+    top: -25px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 17.5px;
+
+}
+
+.input-box label {
+    position: relative;
+    width: 100%;
+    height: 52px;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 2px solid #162938;
+    display: block;
+}
+
+.input-box img {
+    width: 20px;
+    position: absolute;
+    right: 2px;
+    color: rgb(22, 41, 56);
+    line-height: 57px;
+    top: 24px;
+}
+.check-box {
+    position: relative;
+    color:#162938 ;
+    font-size: 1em;
+    font-weight: bold;
+    display: relative;
+    left: 200px;
+    top: -50px;
+
+}
+
+.button button {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    background: #162938;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    top: -9px;
+}
